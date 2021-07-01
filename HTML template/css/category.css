@@ -1,0 +1,70 @@
+main {
+    /* width: 1150px; */
+    margin: auto;
+}
+
+main .main-header {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: center;
+}
+
+main .container .product-card {
+    border: 2px solid rgba(172, 172, 172, 0.822);
+    border-radius: 15px;
+    height: 500px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+main .container .product-card img {
+    width: 250px;
+}
+
+main .container .product-card .product-description {
+    padding-top: 15px;
+}
+
+main .container .product-card .product-description .product-name {
+    padding-top: 8px;
+    font-size: 22px;
+}
+
+main .container .product-card .product-description .product-specs {
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+main .container .product-card .product-description .product-price {
+    padding-top: 8px;
+    font-size: 22px;
+}
+
+main .container .product-card .card-action {
+    padding-top: 16px;
+    width: 150px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+main .container .product-card .card-action button {
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 16px;
+}

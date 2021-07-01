@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <style>
+        main {
+            display: flex;
+            height: 60vh;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 26px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- topbar navigation -->
+    <header class="topbar">
+        <div class="topnav-wrapper">
+            <nav class="topnav" id="topnav">
+                <a class=" logo" href="index.html" class="active">SmarTech</a>
+                <a class="nav-item contact-us" href="contacts.html"><i class="fas fa-phone-alt"></i> 24/7 +342 22 846
+                    13</a>
+                <a class="nav-item login" href="login.html">Log In</a>
+                <a class="nav-item signup" href="registration.html">Sign Up</a>
+                <a class="nav-item" href="delivery.html">Delivery</a>
+                <a class="nav-item" href="liked.html">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a class="nav-item" href="notification.html">
+                    <i class="fas fa-bell"></i>
+                </a>
+                <a class="nav-item" href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+
+                <a class="burger">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="liked-products">
+            <div class="product">
+                    <div class="product-image">
+                        <img src="Assests/images/phone category/phone.png">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-title">Samsung S21</div>
+                       
+                    </div>
+                    <div class="product-price">2779</div>
+                    <div class="product-removal">
+                        <button class="remove-product">
+                            Remove
+                        </button>
+                    </div>
+                    <div class="product-line-price"></div>
+                </div>
+        </div>
+        <!-- <h1>Nici un produs selectat</h1> -->
+    </main>
+    <footer></footer>
+    <script src="js/toggleMenu.js"></script>
+</body>
+
+</html>
